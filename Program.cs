@@ -12,6 +12,10 @@ namespace SuperApp
         {
             Console.WriteLine("Hello world");
 
+            DateTime dataTime = DateTime.Now;
+
+            Console.WriteLine(dataTime.ToString());
+
 
             Console.ReadKey();
         }
