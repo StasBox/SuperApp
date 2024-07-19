@@ -10,7 +10,10 @@ namespace SuperApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            Console.WriteLine("Hello world");
+
+
+            Console.ReadKey();
         }
     }
 }
