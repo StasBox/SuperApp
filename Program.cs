@@ -17,6 +17,17 @@ namespace SuperApp
             Console.WriteLine(dataTime.ToString());
 
 
+            for (int i = 1; i < 10; i++)
+            {
+                for (int k = 0; k < i; k++)
+                {
+                   Console.Write("O");
+                }
+
+                Console.WriteLine();
+            }
+
+            
             Console.ReadKey();
         }
     }
