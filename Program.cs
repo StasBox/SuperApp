@@ -32,6 +32,9 @@ namespace SuperApp
             person.Name = "Ivanov";
             person.Age = 20;
 
+            Console.WriteLine($"Name: {person.Name}, Age: {person.Age}");
+
+
             Console.ReadKey();
         }
     }
