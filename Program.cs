@@ -12,6 +12,11 @@ namespace SuperApp
         {
             Console.WriteLine("Hello world");
 
+            DateTime dataTime = DateTime.Now;
+
+            Console.WriteLine(dataTime.ToString());
+
+
             for (int i = 1; i < 10; i++)
             {
                 for (int k = 0; k < i; k++)
@@ -26,6 +31,9 @@ namespace SuperApp
             person.Name = "Dima";
             person.Name = "Ivanov";
             person.Age = 20;
+
+            Console.WriteLine($"Name: {person.Name}, Age: {person.Age}");
+
 
             Console.ReadKey();
         }
