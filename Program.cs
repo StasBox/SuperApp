@@ -27,7 +27,11 @@ namespace SuperApp
                 Console.WriteLine();
             }
 
-            
+            Person person = new Person();
+            person.Name = "Dima";
+            person.Name = "Ivanov";
+            person.Age = 20;
+
             Console.ReadKey();
         }
     }
